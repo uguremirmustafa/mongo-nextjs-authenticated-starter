@@ -9,7 +9,7 @@ function profile() {
   const { auth } = state;
   return (
     <Box>
-      <Heading>{auth.user.name}</Heading>
+      <Heading>{auth.user?.name}</Heading>
     </Box>
   );
 }
